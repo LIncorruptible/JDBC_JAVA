@@ -12,7 +12,7 @@ De plus, trois fichiers .jar sont fournis qui correspondent à chaque version pa
  - Se placer dans le répertoire où se trouvent les fichiers .jar
  - Lancer la commande suivante : `java -jar VERSION_X.jar` où <b>X</b> est le numéro de version.
 
-Enfin l'environnement d'administration de la BDD utilisé pour le développement a été WampServer avec MySQL. Le code y accède en <b>localhost</b> sur le port <b>3306</b> via un utilisateur <b>root</b> et ayant un mot de passe vide.
+Enfin l'environnement d'administration de la BDD utilisé pour le développement a été WampServer avec MySQL. Le code y accède en <b>localhost</b> sur le port <b>3306</b> via un utilisateur <b>root</b> et ayant un mot de passe vide. Le code s'occupe de créer la BDD (mabd) et ses tables si elles n'existent pas.
 
 *Assurez-vous de disposer de la version adéquate de JAVA sur votre ordinateur pour pouvoir lancer les fichiers .jar correctement.* 
 
