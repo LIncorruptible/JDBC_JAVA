@@ -4,7 +4,7 @@
 
 Sujet de Travail évalué sur JDBC JAVA
 
-Ce projet comporte trois dossiers qui contiennent chacun le projet Intellij de la version demandée de JAVA. La version 16 de JAVA est utilisée et l'artifact construit dans le dossier `out/artifacts/`.
+Ce projet comporte trois dossiers qui contiennent chacun le projet Intellij d'une des 3 versions. La version 16 de JAVA est utilisée et l'artifact est construit dans le dossier `out/artifacts/`.
 
 De plus, trois fichiers .jar sont fournis qui correspondent à chaque version packagée en tant que fichier autonome et peuvent être lancés en suivant les étapes suivantes :
 
