@@ -1,5 +1,6 @@
 # JDBC_JAVA
-#2 GROUPE ERP CISCO : Maël RHUIN & Adrien Chrétien
+
+#### *GROUPE ERP CISCO : Maël RHUIN & Adrien Chrétien*
 
 Sujet de Travail évalué sur JDBC JAVA
 
