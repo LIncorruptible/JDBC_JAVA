@@ -1,7 +1,19 @@
 package object;
 
+/**
+ * Classe Book
+ * Permet de créer un livre
+ * Un livre est caractérisé par un nom et un auteur
+ * Il est possible de récupérer/modifier le nom et l'auteur du livre
+ */
 public class Book {
+    /**
+     * Nom du livre
+     */
     private String name;
+    /**
+     * Auteur du livre
+     */
     private String author;
 
     /**

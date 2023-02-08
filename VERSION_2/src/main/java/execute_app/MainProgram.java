@@ -10,6 +10,15 @@ import java.util.Scanner;
 
 import object.Book;
 import object.Reader;
+
+/**
+ * Classe MainProgram
+ * Permet de lancer l'application
+ * Permet de gérer les livres et les lecteurs
+ * Permet d'écrire et de lire les livres et les lecteurs dans un fichier
+ * Permet d'afficher la liste des livres et des lecteurs
+ * Permet de récupérer la liste des livres et des lecteurs depuis un fichier
+ */
 public class MainProgram {
     /**
      * Ecrire les lecteurs dans un fichier

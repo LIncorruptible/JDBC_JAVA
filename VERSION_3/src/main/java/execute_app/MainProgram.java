@@ -9,14 +9,39 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Classe MainProgram
+ * Permet de lancer l'application
+ * Permet de créer un client et de se connecter au serveur
+ * Permet de récupérer les informations saisies par l'utilisateur
+ * Permet d'envoyer les informations saisies par l'utilisateur au serveur
+ * Permet de récupérer la liste des livres et des lecteurs
+ * Permet d'afficher la liste des livres et des lecteurs de la BDD
+ */
 public class MainProgram {
     public static void main(String[] args) {
+
+        /**
+         * Création d'un objet de type Client
+         * Connexion au serveur
+         */
         Client client = new Client();
         client.connect();
 
+        /**
+         * Création d'un objet de type Scanner
+         * Permet de récupérer les informations saisies par l'utilisateur
+         */
         Scanner input = new Scanner(System.in);
 
-        //Variables Tampons pour les livres et les lecteurs
+        /**
+         * Déclaration des variables
+         * bookName, bookAuthor, readerName, readerAddress : les variables qui vont contenir les informations saisies par l'utilisateur
+         * book : le livre qui va être ajouté à la liste des livres
+         * reader : le lecteur qui va être ajouté à la liste des lecteurs
+         * books : la liste des livres
+         * readers : la liste des lecteurs
+         */
         String bookName, bookAuthor, readerName, readerAddress;
         Book book = null;
         Reader reader = null;
@@ -27,9 +52,9 @@ public class MainProgram {
             System.out.println("\nChoisir une option parmis les suivantes : ");
             System.out.println("1. Saisir un livre");
             System.out.println("2. Saisir un lecteur");
-            System.out.println("3. Envoyer les livres et les lecteurs au serveur");
-            System.out.println("4. Lister les livres");
-            System.out.println("5. Lister les lecteurs");
+            System.out.println("3. Envoyer les livres et les lecteurs saisies au serveur");
+            System.out.println("4. Lister les livres de la BDD");
+            System.out.println("5. Lister les lecteurs de la BDD");
             System.out.println("6. Déconnecter");
 
             int option = input.nextInt();

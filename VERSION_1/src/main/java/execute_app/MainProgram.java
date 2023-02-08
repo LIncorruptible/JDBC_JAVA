@@ -6,11 +6,28 @@ import java.util.Scanner;
 
 import object.Book;
 import object.Reader;
+
+/**
+ * Classe MainProgram
+ * Permet de lancer l'application
+ * Elle permet la gestion des livres et des lecteurs
+ * De manière locale, en mémoire
+ */
 public class MainProgram {
     public static void main(String[] args) {
+        /**
+         * Création d'un objet de type Scanner pour la saisie des données
+         */
         Scanner input = new Scanner(System.in);
 
-        //Variables Tampons pour les livres et les lecteurs
+        /**
+         * Déclaration des variables
+         * bookName, bookAuthor, readerName, readerAddress : les variables qui vont contenir les informations saisies par l'utilisateur
+         * book : le livre qui va être ajouté à la liste des livres
+         * reader : le lecteur qui va être ajouté à la liste des lecteurs
+         * books : la liste des livres
+         * readers : la liste des lecteurs
+         */
         String bookName, bookAuthor, readerName, readerAddress;
         Book book = null;
         Reader reader = null;

@@ -7,7 +7,13 @@ package object;
  * Il est possible de récupérer/modifier le nom et l'adresse mail du lecteur
  */
 public class Reader {
+    /**
+     * Nom du lecteur
+     */
     private String name;
+    /**
+     * Adresse mail du lecteur
+     */
     private String address;
 
     /**

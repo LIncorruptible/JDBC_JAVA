@@ -11,10 +11,16 @@ import java.util.List;
  * Permet de stocker, récupérer des objets Book et Reader
  */
 public class Server {
+    /**
+     * Déclaration d'un objet de type Connection
+     */
     private Connection connection;
 
     /**
      * Méthode permettant de se connecter à la base de données
+     * La base de données est nommée mabd
+     * La base de données est créée si elle n'existe pas
+     * Les tables sont créées si elles n'existent pas
      */
     public void connect() {
         String url = "jdbc:mysql://localhost:3306/mabd";

@@ -7,6 +7,9 @@ import java.util.List;
  * Permet de se connecter/deconnecter au/du serveur et d'envoyer des objets Book et Reader
  */
 public class Client {
+    /**
+     * Déclaration d'un objet de type Server
+     */
     private Server server;
 
     /**
