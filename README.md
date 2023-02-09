@@ -33,4 +33,23 @@ Trois fichiers `.jar` sont fournis. Ils sont respectivement dans le dossier spé
 
 <img src="https://user-images.githubusercontent.com/66364083/217639970-c5704a74-4423-4bcc-89ad-fa65b52ae54e.png">
 
+#### Exécution : Un choix va vous être continuellement proposé, vous n'avez qu'à saisir le chiffre de ce choix et suivre les instructions.
+Voici un jeu de valeurs à saisir :
+
+<b>Pour les livres :</b>
+```
+Nom : Mort Sur Le Nil
+Auteur : Agatha Christie
+
+Nom : Le Crime de l'Orient Express
+Auteur : Agatha Christie
+
+Nom : La Pensée de Dieu
+Auteur : Bogdanov
+```
+<b>Pour les lecteurs :</b>
+```
+Nom : John Doe
+Adresse : jd@mail.test
+```
 *N'hésitez pas à nous contacter si vous rencontrez des problèmes ou si vous avez des questions.*
