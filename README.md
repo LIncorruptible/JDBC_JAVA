@@ -4,6 +4,10 @@
 
 Sujet de Travail évalué sur JDBC JAVA
 
+## INSTALLATION
+
+Téléchargez et décompressez l'archive du projet github ou bien clonez-le. Il vous faut un serveur web de gestion de BDD tel que WampServeur, MAMP, Laragon, XAMP... Basé en `localhost` et utilisant le port `3306`. *Pour la partie lancement, ce serveur doit être actif !*
+
 ## CODE
 
 Ce projet comporte trois dossiers qui contiennent chacun le projet Intellij d'une des 3 versions. La version 16 de JAVA est utilisée et l'artifact est construit dans le dossier `out/artifacts/`.
