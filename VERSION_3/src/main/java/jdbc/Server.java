@@ -25,7 +25,7 @@ public class Server {
     public void connect() {
         String url = "jdbc:mysql://localhost:3306/mabd";
         String username = "root";
-        String password = "";
+        String password = "root";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
