@@ -20,9 +20,7 @@ Ce projet comporte trois dossiers qui contiennent chacun le projet Intellij d'un
 
 ## LANCEMENT
 
-L'environnement d'administration de la BDD utilisé pour le développement a été `WampServer` & `MySQL`. Le code y accède en `localhost` sur le port `3306` via un utilisateur `root` ayant un mot de passe vide. Le code s'occupe de créer la BDD (mabd) et ses tables si elles n'existent pas.
-
-<img src="https://user-images.githubusercontent.com/66364083/217630689-b2d38b8e-817b-43e9-9971-e474d1432746.png" width="300">
+L'environnement d'administration de la BDD utilisé pour le développement a été `WampServer` & `MySQL`. Le code y accède en `localhost` sur le port `3306` via un utilisateur `root` ayant le mot de passe `root`. Le code s'occupe de créer la BDD (mabd) et ses tables si elles n'existent pas.
 
 Trois fichiers `.jar` sont fournis dans le dossier spécifier précédemment `out/artifacts` de chaque <b>VERSION</b> et correspondent à chaque version packagée en tant que fichier autonome et peuvent être lancés en suivant les étapes suivantes :
 
