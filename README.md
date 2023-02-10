@@ -6,7 +6,7 @@ Sujet de Travail évalué sur JDBC JAVA
 
 ## INSTALLATION
 
-Téléchargez et décompressez l'archive du projet github ou bien clonez-le. Il vous faut un serveur web de gestion de BDD tel que WampServeur, MAMP, Laragon, XAMP... Basé en `localhost` et utilisant le port `3306`. *Pour la partie lancement, ce serveur doit être actif !*
+Téléchargez et décompressez l'archive du projet github ou bien clonez-le. Il vous faut un serveur web de gestion de BDD `MySQL` tel que WampServeur, MAMP, Laragon, XAMP... Basé en `localhost` et utilisant le port `3306`. *Pour la partie lancement, ce serveur doit être actif !*
 
 ## CODE
 
@@ -22,7 +22,7 @@ Ce projet comporte trois dossiers qui contiennent chacun le projet Intellij d'un
 
 L'environnement d'administration de la BDD utilisé pour le développement a été `WampServer` & `MySQL`. Le code y accède en `localhost` sur le port `3306` via un utilisateur `root` ayant le mot de passe `root`. Le code s'occupe de créer la BDD (mabd) et ses tables si elles n'existent pas.
 
-Trois fichiers `.jar` sont fournis dans le dossier spécifier précédemment `out/artifacts` de chaque <b>VERSION</b> et correspondent à chaque version packagée en tant que fichier autonome et peuvent être lancés en suivant les étapes suivantes :
+Trois fichiers `.jar` sont fournis. Ils sont respectivement dans le dossier spécifier précédemment `out/artifacts` de chaque <b>VERSION</b> et correspondent à chaque version packagée en tant que fichier autonome et peuvent être lancés en suivant les étapes suivantes :
 
  #### Etape 1 : Ouvrir un terminal
  #### Etape 2 : Se placer dans le répertoire où se trouvent les fichiers `.jar`
@@ -33,4 +33,23 @@ Trois fichiers `.jar` sont fournis dans le dossier spécifier précédemment `ou
 
 <img src="https://user-images.githubusercontent.com/66364083/217639970-c5704a74-4423-4bcc-89ad-fa65b52ae54e.png">
 
+#### Exécution : Un choix va vous être continuellement proposé, vous n'avez qu'à saisir le chiffre de ce choix et suivre les instructions.
+Voici un jeu de valeurs à saisir :
+
+<b>Pour les livres :</b>
+```
+Nom : Mort Sur Le Nil
+Auteur : Agatha Christie
+
+Nom : Le Crime de l'Orient Express
+Auteur : Agatha Christie
+
+Nom : La Pensée de Dieu
+Auteur : Bogdanov
+```
+<b>Pour les lecteurs :</b>
+```
+Nom : John Doe
+Adresse : jd@mail.test
+```
 *N'hésitez pas à nous contacter si vous rencontrez des problèmes ou si vous avez des questions.*
